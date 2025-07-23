@@ -12,10 +12,10 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #f8f9fa;
   overflow-x: hidden;
-  padding-bottom: var(--bottom-bar-height); /* Space for bottom bar */
+  padding-bottom: var(--bottom-bar-height);
 }
 
-/* Desktop Sidebar Styles */
+/* sidebar */
 #sidebar {
   width: var(--sidebar-width);
   height: 100vh;
@@ -68,7 +68,7 @@ body {
   margin-right: 10px;
 }
 
-/* Resize Handle */
+/* adjust side bar */
 .resize-handle {
   position: absolute;
   right: 0;
@@ -88,14 +88,14 @@ body {
   background: rgba(79, 70, 229, 0.2);
 }
 
-/* Main Content */
+/* konten home */
 #main-content {
   margin-left: var(--sidebar-width);
   transition: all 0.3s;
   min-height: 100vh;
 }
 
-/* Mobile Bottom Bar */
+/* bottom bar */
 #bottom-bar {
   position: fixed;
   bottom: 0;
@@ -134,11 +134,10 @@ body {
   color: var(--primary);
 }
 
-/* Responsive Styles */
+/* responsive */
 @media (max-width: 992px) {
   #sidebar {
       display: none;
-      transition: width 0.1s ease;
   }
   
   #main-content {
@@ -154,13 +153,11 @@ body {
   }
 }
 
-/* Hero Section */
 .hero-section {
   background: linear-gradient(135deg, rgba(79, 70, 229, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%);
   padding: 5rem 0;
 }
 
-/* Category Cards */
 .category-card {
   transition: all 0.3s;
   border: none;
