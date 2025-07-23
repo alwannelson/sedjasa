@@ -95,6 +95,10 @@ body {
   min-height: 100vh;
 }
 
+.a {
+  border-radius: 30px;
+}
+
 /* bottom bar */
 #bottom-bar {
   position: fixed;
