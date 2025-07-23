@@ -22,71 +22,58 @@
 
 <body>
     <!-- ini desktop sidebar -->
-    <div id="sidebar">
-        <div class="resize-handle"></div>
-        <div class="sidebar-header">
-            <a href="#" class="sidebar-brand">
-                <span>Sed</span>Jasa
+    <!-- Top Navigation Bar -->
+<nav class="navbar sedjasa-navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Brand/Logo -->
+      <a class="navbar-brand" href="index.html">
+        <span class="text-primary">Sed</span><span class="text-secondary">Jasa</span>
+        <!-- <img src="assets/logo_sejasa.png" alt="logo" width="100">  -->
+      </a>
+      
+      <!-- Toggle Button (Mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Menu Items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto"> <!-- mx-auto untuk posisi tengah -->
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">
+              <i class="fas fa-home me-1"></i> Beranda
             </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="">
+                  <i class="fas fa-search me-1"></i> Cari
+                </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">
+                <i class="fas fa-th-large me-1"></i> Kategori
+              </a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <i class="fas fa-info-circle me-1"></i> Ketentuan
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <i class="fas fa-user me-1"></i> Saya
+            </a>
+          </li>
+        </ul>
+        
+        <!-- Auth Buttons (Right) -->
+        <div class="auth-buttons">
+          <a href="" class="btn btn-outline-primary btn-sm">Masuk</a>
+          <a href="" class="btn btn-primary btn-sm ms-2">Daftar</a>
         </div>
-
-        <div class="sidebar-menu">
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">
-                        <i class="fas fa-home"></i> Beranda
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fas fa-search"></i> Cari
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="category.html">
-                        <i class="fas fa-th-large"></i> Kategori
-                    </a>
-                </li>
-                <hr>
-                <li class="nav-item">
-                    <a class="nav-link" href="account.html">
-                        <i class="fas fa-user"></i> Saya
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="settings.html">
-                        <i class="fas fa-cog"></i> Pengaturan
-                    </a>
-                </li>
-            </ul>
-        </div>
+      </div>
     </div>
-
-    <!-- ini mobile bottom bar -->
-    <nav id="bottom-bar">
-        <div class="bottom-bar-menu h-100">
-            <a href="#" class="bottom-bar-item active">
-                <i class="fas fa-home"></i>
-                <span>Beranda</span>
-            </a>
-            <a href="#" class="bottom-bar-item">
-                <i class="fas fa-search"></i>
-                <span>Cari</span>
-            </a>
-            <a href="category.html" class="bottom-bar-item">
-                <i class="fas fa-th-large"></i>
-                <span>Kategori</span>
-            </a>
-            <a href="account.html" class="bottom-bar-item">
-                <i class="fas fa-user"></i>
-                <span>Saya</span>
-            </a>
-            <a href="settings.html" class="bottom-bar-item">
-                <i class="fas fa-cog"></i>
-                <span>Pengaturan</span>
-            </a>
-        </div>
-    </nav>
+  </nav>
 
     <!-- konten home -->
     <div id="main-content">
@@ -101,7 +88,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus magni dolor,
                             recusandae minima totam.
                         </p>
-                        <a href="#" class="btn btn-primary btn-lg px-4 me-2">Cari Jasa</a>
+                        <a href="#" class="btn btn-primary btn-lg px-4 me-2">Cari Jasa</a> <br> <br>
                         <a href="#" class="btn btn-outline-primary btn-lg px-4">Daftarkan Jasa Anda</a>
                     </div>
                     <div class="col-lg-6 d-none d-lg-block">
@@ -193,7 +180,7 @@
                     </div>
                     <div class="d-flex justify-content-center">
                         <div class="col-md-2 col-6">
-                            <a href="#" class="container-fluid btn btn-info a">Lihat Lainnya...</a>
+                            <a href="categories.html" class="container-fluid btn btn-info a">Lihat Lainnya...</a>
                         </div>
                     </div>
                 </div>

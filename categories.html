@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SedJasa - Sedia Jasa Terbaik di Indonesia</title>
+
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"
+    crossorigin="anonymous">
+
+  <!-- css manual -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Top Navigation Bar -->
+  <nav class="navbar sedjasa-navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Brand/Logo -->
+      <a class="navbar-brand" href="index.html">
+        <span class="text-primary">Sed</span><span class="text-secondary">Jasa</span>
+      </a>
+
+      <!-- Toggle Button (Mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu Items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto"> <!-- mx-auto untuk posisi tengah -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="fas fa-home me-1"></i> Beranda
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <i class="fas fa-search me-1"></i> Cari
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <i class="fas fa-th-large me-1"></i> Kategori
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <i class="fas fa-info-circle me-1"></i> Ketentuan
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <i class="fas fa-user me-1"></i> Saya
+            </a>
+          </li>
+        </ul>
+
+        <!-- Auth Buttons (Right) -->
+        <div class="auth-buttons">
+          <a href="" class="btn btn-outline-primary btn-sm">Masuk</a>
+          <a href="" class="btn btn-primary btn-sm ms-2">Daftar</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- konten kategori -->
+  <div id="main-content">
+    <section class="category-section py-5">
+      <div class="container">
+        <h1 class="text-center mb-5">Kategori Jasa</h1>
+
+        <!-- Jasa Perbaikan dan Instalasi -->
+        <div class="category-group mb-5">
+          <h2 class="category-title mb-4">Jasa Perbaikan dan Instalasi</h2>
+          <div class="row g-4">
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-primary-light">
+                    <i class="fas fa-mobile-alt"></i>
+                  </div>
+                  <h3>Service Perangkat Cerdas</h3>
+                  <p>Perbaikan smartphone, tablet, dan perangkat pintar lainnya</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-primary-light">
+                    <i class="fas fa-snowflake"></i>
+                  </div>
+                  <h3>Service AC, Elektronik</h3>
+                  <p>Perbaikan AC dan peralatan elektronik rumah tangga</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-primary-light">
+                    <i class="fas fa-hammer"></i>
+                  </div>
+                  <h3>Jasa Tukang Bangunan</h3>
+                  <p>Konstruksi, renovasi, dan perbaikan bangunan</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-primary-light">
+                    <i class="fas fa-fire"></i>
+                  </div>
+                  <h3>Jasa Las & Kusen</h3>
+                  <p>Pembuatan dan perbaikan produk besi dan kusen</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-primary-light">
+                    <i class="fas fa-ruler-combined"></i>
+                  </div>
+                  <h3>Jasa Interior & Arsitek</h3>
+                  <p>Desain interior dan arsitektur bangunan</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- Jasa Kebersihan dan Rumah Tangga -->
+        <div class="category-group mb-5">
+          <h2 class="category-title mb-4">Jasa Kebersihan dan Rumah Tangga</h2>
+          <div class="row g-4">
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-success-light">
+                    <i class="fas fa-broom"></i>
+                  </div>
+                  <h3>Jasa Cleaning Service</h3>
+                  <p>Pembersihan rumah, kantor, dan ruangan lainnya</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-success-light">
+                    <i class="fas fa-rug"></i>
+                  </div>
+                  <h3>Jasa Cuci Karpet, dll.</h3>
+                  <p>Pembersihan karpet, sofa, dan perabot berlapis</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-success-light">
+                    <i class="fas fa-tshirt"></i>
+                  </div>
+                  <h3>Jasa Cuci Baju/Laundry</h3>
+                  <p>Layanan laundry kiloan, satuan, dan dry cleaning</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-success-light">
+                    <i class="fas fa-baby"></i>
+                  </div>
+                  <h3>Jasa Baby Sitter & ART</h3>
+                  <p>Perawatan anak dan asisten rumah tangga</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-success-light">
+                    <i class="fas fa-toilet"></i>
+                  </div>
+                  <h3>Jasa Sedot WC</h3>
+                  <p>Pelayanan sedot WC dan saluran mampet</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jasa Kreatif -->
+        <div class="category-group mb-5">
+          <h2 class="category-title mb-4">Jasa Kreatif</h2>
+          <div class="row g-4">
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-warning-light">
+                    <i class="fas fa-camera"></i>
+                  </div>
+                  <h3>Jasa Fotografi</h3>
+                  <p>Jasa foto profesional untuk berbagai acara</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-warning-light">
+                    <i class="fas fa-paint-brush"></i>
+                  </div>
+                  <h3>Jasa Lukis & Sketsa Digital</h3>
+                  <p>Pembuatan karya seni lukis dan digital art</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-warning-light">
+                    <i class="fas fa-envelope-open-text"></i>
+                  </div>
+                  <h3>Jasa Undangan Fisik & Digital</h3>
+                  <p>Desain dan cetak undangan pernikahan, dll</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jasa Hewan Peliharaan -->
+        <div class="category-group mb-5">
+          <h2 class="category-title mb-4">Jasa Hewan Peliharaan</h2>
+          <div class="row g-4">
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-danger-light">
+                    <i class="fas fa-paw"></i>
+                  </div>
+                  <h3>Jasa Penitipan Hewan</h3>
+                  <p>Penitipan hewan peliharaan saat pemilik bepergian</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-danger-light">
+                    <i class="fas fa-clinic-medical"></i>
+                  </div>
+                  <h3>Jasa Dokter Hewan</h3>
+                  <p>Layanan kesehatan untuk hewan peliharaan</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jasa Transportasi dan Pengiriman -->
+        <div class="category-group mb-5">
+          <h2 class="category-title mb-4">Jasa Transportasi dan Pengiriman</h2>
+          <div class="row g-4">
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-info-light">
+                    <i class="fas fa-car"></i>
+                  </div>
+                  <h3>Jasa Rental Mobil</h3>
+                  <p>Penyewaan mobil dengan atau tanpa sopir</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-info-light">
+                    <i class="fas fa-truck"></i>
+                  </div>
+                  <h3>Jasa Angkut Barang</h3>
+                  <p>Layanan pindahan dan pengiriman barang</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <a href="" class="text-decoration-none">
+                <div class="category-card">
+                  <div class="card-icon bg-info-light">
+                    <i class="fas fa-user-tie"></i>
+                  </div>
+                  <h3>Jasa Driver</h3>
+                  <p>Penyedia sopir pribadi untuk kendaraan Anda</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
