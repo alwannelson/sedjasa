@@ -177,9 +177,38 @@ body {
 }
 
 .category-card {
-  transition: all 0.3s;
-  border: none;
+  position: relative;
+  overflow: hidden;
   border-radius: 10px;
+  padding: 1.5rem;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eee;
+  text-align: center;
+  color: #2c3e50; /* Warna teks yang kontras */
+}
+
+.card-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15; /* Transparansi image */
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+.card-content {
+  position: relative;
+  z-index: 2; /* Pastikan konten di atas overlay */
+}
+
+.category-card:hover .card-bg-overlay {
+  opacity: 0.25; /* Sedikit lebih terlihat saat hover */
 }
 
 .category-card:hover {
@@ -231,15 +260,14 @@ body {
 }
 
 .category-card h3 {
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
-  color: #2c3e50;
+  color: inherit; /* Warisi dari parent */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Membantu keterbacaan */
 }
 
 .category-card p {
-  color: #7f8c8d;
-  font-size: 0.9rem;
-  margin-bottom: 0;
+  color: inherit;
+  opacity: 0.9;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 /* Background colors for icons */
