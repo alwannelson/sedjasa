@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SedJasa - Sedia Jasa Terbaik di Indonesia</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"
+        crossorigin="anonymous">
+
+    <!-- css manual -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar sedjasa-navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="../index.html">
+                <span class="text-primary">Sed</span><span class="text-secondary">Jasa</span>
+                <!-- <img src="assets/logo_sejasa.png" alt="logo" width="100">  -->
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item1">
+                        <a class="nav-link" href="../index.html">
+                            <i class="fas fa-home me-1"></i> Beranda
+                        </a>
+                    </li>
+                    <li class="nav-item1">
+                        <a class="nav-link" href="">
+                            <i class="fas fa-search me-1"></i> Cari
+                        </a>
+                    </li>
+                    <li class="nav-item1">
+                        <a class="nav-link" href="../categories.html">
+                            <i class="fas fa-th-large me-1"></i> Kategori
+                        </a>
+                    </li>
+                    <li class="nav-item1">
+                        <a class="nav-link" href="">
+                            <i class="fas fa-info-circle me-1"></i> Bantuan
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item1">
+                        <a class="nav-link active" href="">
+                            <i class="fas fa-user me-1"></i> Saya
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="dashboard-container">
+        <!-- Sidebar Desktop -->
+        <aside class="dashboard-sidebar">
+          <div class="sidebar-header">
+            <h3>Dasbor</h3>
+          </div>
+          <nav class="sidebar-nav">
+            <ul>
+              <li class="menu-item active" data-menu="akun">
+                <a href="#">
+                  <i class="fas fa-user-circle"></i>
+                  <span>Akun</span>
+                </a>
+              </li>
+              <li class="menu-item" data-menu="pesan">
+                <a href="#">
+                  <i class="fas fa-envelope"></i>
+                  <span>Pesan</span>
+                </a>
+              </li>
+              <li class="menu-item" data-menu="tambah-jasa">
+                <a href="#">
+                  <i class="fas fa-plus-circle"></i>
+                  <span>Tambah Jasa</span>
+                </a>
+              </li>
+              <li class="menu-item" data-menu="laris">
+                <a href="#">
+                  <i class="fas fa-bolt"></i>
+                  <span>SedJasa Laris</span>
+                </a>
+              </li>
+              <li class="menu-item" data-menu="pengaturan">
+                <a href="#">
+                  <i class="fas fa-cog"></i>
+                  <span>Pengaturan</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+    
+        <!-- Main Content -->
+        <main class="dashboard-main">
+          <div class="dashboard-card">
+            <div class="card-connection">
+              <div class="connection-line"></div>
+              <div class="connection-dot"></div>
+            </div>
+            <div class="card-content">
+              <h2 id="content-title">Akun</h2>
+              <div id="content-body">
+                <p>Hello</p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    
+      <!-- Bottom Bar Mobile -->
+      <nav class="bottom-navbar">
+        <a href="#" class="nav-item active" data-menu="akun">
+          <i class="fas fa-user-circle"></i>
+          <span>Akun</span>
+        </a>
+        <a href="#" class="nav-item" data-menu="pesan">
+          <i class="fas fa-envelope"></i>
+          <span>Pesan</span>
+        </a>
+        <a href="#" class="nav-item" data-menu="tambah-jasa">
+          <i class="fas fa-plus-circle"></i>
+          <span>Tambah</span>
+        </a>
+        <a href="#" class="nav-item" data-menu="laris">
+          <i class="fas fa-bolt"></i>
+          <span>Laris</span>
+        </a>
+        <a href="#" class="nav-item" data-menu="pengaturan">
+          <i class="fas fa-cog"></i>
+          <span>Setting</span>
+        </a>
+      </nav>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
